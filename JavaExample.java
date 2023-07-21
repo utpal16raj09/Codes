@@ -1,7 +1,7 @@
 // Import the Scanner class from the java.util package
 import java.util.Scanner;
 
-// Declare a public class named JavaExample
+// Declare a public class named JavaExample or whatever your Filename is
 public class JavaExample {
 
     // Define the main method, the entry point of the Java program
