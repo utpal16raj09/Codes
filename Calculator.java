@@ -48,9 +48,7 @@ public class Calculator {
             }
             //Display the output
             System.out.println("Result : " + result);
-
         }
-
     }
     //Methods to perform different operations
 
