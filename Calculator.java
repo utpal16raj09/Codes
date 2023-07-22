@@ -1,3 +1,4 @@
+//to use the Scanner clas for user input
 import java.util.Scanner;
 //Define the class as per your file name
 public class Calculator {
