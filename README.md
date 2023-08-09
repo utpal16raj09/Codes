@@ -1,2 +1,2 @@
-# Codes
-This repo consists of some explained basic codes (Java and C++) 
+# Java Codes
+This repo consists of some explained basic codes (Java) 
