@@ -1,0 +1,39 @@
+class Solution{
+    public:
+#include <iostream>
+
+bool isPalindrome(int x) {
+    // Check if x is negative, which cannot be a palindrome
+    if (x < 0) {
+        return false;
+    }
+    
+    double original = x;
+    double reversed = 0;
+    
+    // Reverse the digits of x
+    while (x > 0) {
+        double digit = x % 10;
+        reversed = reversed * 10 + digit;
+        x /= 10;
+    }
+    
+    // Compare the original integer with the reversed integer
+    return original == reversed;
+}
+
+int main() {
+    // Example usage:
+    // Replace 121 with the integer you want to check
+    int x = 121;
+    bool result = isPalindrome(x);
+    
+    if (result) {
+        std::cout << "It is a palindrome." << std::endl;
+    } else {
+        std::cout << "It is not a palindrome." << std::endl;
+    }
+    
+    return 0;
+}
+};
